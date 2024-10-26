@@ -43,3 +43,9 @@ Chat Model Documents: https://python.langchain.com/v0.2/docs/integrations/chat/
 OpenAI Chat Model Documents: https://python.langchain.com/v0.2/docs/integrations/chat/openai/
 ```
 
+## Prompt Templates
+
+**Prompt Template Docs:**
+```
+https://python.langchain.com/v0.2/docs/concepts/#prompt-templateshttps://python.langchain.com/v0.2/docs/concepts/#prompt-templates
+```
