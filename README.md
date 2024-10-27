@@ -126,3 +126,20 @@ Benefits:
 
 It's similar to pandas' pipe operator but for LLM operations.
 
+### Runnable Lambdas
+
+Runnable Lambdas refer to the ability to create and execute small, self-contained functions or code snippets in LangChain. These Runnable Lambdas are similar to the concept of "lambda functions" in programming, which are anonymous, inline functions that can be defined and executed on the fly.
+
+In the context of LangChain, Runnable Lambdas provide a way to easily incorporate custom logic or functionality into your LangChain workflows, without the need to create a separate, standalone Python module or function.
+
+Some key characteristics and use cases of Runnable Lambdas in LangChain include:
+
+1. **Inline Functionality**: Runnable Lambdas allow you to define small, focused pieces of logic directly within your LangChain code, rather than having to define them in a separate Python file.
+
+2. **Dynamic Customization**: You can use Runnable Lambdas to dynamically customize the behavior of your LangChain components or chains, based on specific requirements or inputs.
+
+3. **Rapid Prototyping**: Runnable Lambdas make it easier to experiment and iterate on your LangChain workflows, as you can quickly add, modify, or remove small pieces of functionality without having to restructure your entire codebase.
+
+4. **Modularity and Composability**: Runnable Lambdas can be composed together with other LangChain components, allowing you to build more complex and modular workflows.
+
+Runnable Lambdas provide a flexible and convenient way to incorporate custom logic into your LangChain workflows, helping you to build more powerful and tailored language models and applications.
