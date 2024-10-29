@@ -143,3 +143,40 @@ Some key characteristics and use cases of Runnable Lambdas in LangChain include:
 4. **Modularity and Composability**: Runnable Lambdas can be composed together with other LangChain components, allowing you to build more complex and modular workflows.
 
 Runnable Lambdas provide a flexible and convenient way to incorporate custom logic into your LangChain workflows, helping you to build more powerful and tailored language models and applications.
+
+# RAG
+
+
+
+### **persistent_directory**
+
+
+In ChromaDB, the persistent_directory is the location where the database stores its data on disk permanently, rather than just in memory.
+
+Key points:
+- Without it, data exists only in memory (lost when program ends)
+- With it, data persists between sessions
+- Stores embeddings, metadata, and index structures
+- Can be reloaded and reused later
+
+Simple explanation:
+```python
+# In-memory (temporary):
+db = chromadb.Client()
+
+# Persistent (saved to disk):
+db = chromadb.PersistentClient(path="./my_chroma_db")
+```
+
+Think of it like:
+- In-memory = temporary notebook
+- Persistent = actual filing cabinet
+
+This is crucial for:
+- Saving embeddings for reuse
+- Not having to recreate DB every run
+- Production applications
+- Backing up data
+
+The path you specify becomes your "database folder" where ChromaDB saves everything.
+
